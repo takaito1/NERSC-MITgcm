@@ -31,3 +31,7 @@ Binary to netCDF can be done automatically using the following scripts:
 * [rdmds.m]
 * [rdmds_nc_batch.m]
 * [drive_rdmds_nc.m]
+
+### Slurm job script
+[run.sh]
+> sbatch run.sh
