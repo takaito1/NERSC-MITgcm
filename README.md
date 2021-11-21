@@ -10,17 +10,17 @@ iris.nersc.gov
 Successful run using the Intel compiler (tested with 2.8x2.8 global ocean config with 32 cores)
 
 ### Working environment: modules
-> module load PrgEnv-intel
-> module swap craype-haswell craype-mic-knl
+* module load PrgEnv-intel
+* module swap craype-haswell craype-mic-knl
 
 ### Working environment: interactive environment
-
-[link to JupyterHub](https://jupyter.nersc.gov/hub/home)
+* [link to JupyterHub](https://jupyter.nersc.gov/hub/home)
 
 ### Compiler option
 To compile the MITgcm, using the above module configuration use this: 
-> Option file [opt_cori_intel](https://github.com/takaito1/NERSC-MITgcm/blob/main/opt_cori_intel)
+* Option file [opt_cori_intel](https://github.com/takaito1/NERSC-MITgcm/blob/main/opt_cori_intel)
 
 ### Test run
-At the command prompt, salloc -N 1 -q interactive -C knl -t 30:00 
+At the command prompt,
+> salloc -N 1 -q interactive -C knl -t 30:00 
 
