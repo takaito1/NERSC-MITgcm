@@ -11,8 +11,6 @@ module swap PrgEnv-cray PrgEnv-intel
 module swap craype-haswell craype-mic-knl
 module load matlab
 
-cd /global/cscratch1/sd/takaito/mitgcm0
-
 export OMP_NUM_THREADS=1
 srun -n 32 -c 1 --cpu_bind=cores ./mitgcmuv
 
