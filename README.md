@@ -18,9 +18,11 @@ Successful run using the Intel compiler (tested with 2.8x2.8 global ocean config
 
 ### Compiler option
 To compile the MITgcm, using the above module configuration use this: 
+* Download the source code and compile one of the verification example using theh following option file: 
 * Option file [opt_cori_intel](https://github.com/takaito1/NERSC-MITgcm/blob/main/opt_cori_intel)
 
 ### Test run
 At the command prompt,
 > salloc -N 1 -q interactive -C knl -t 30:00 
+> srun -n 32 ./mitgcmuv
 
