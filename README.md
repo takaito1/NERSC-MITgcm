@@ -13,7 +13,7 @@ Successful run using the Intel compiler (tested with 2.8x2.8 global ocean config
 * module load PrgEnv-intel
 * module swap craype-haswell craype-mic-knl
 
-### Working environment: interactive environment
+### JupyterHub: much better than SSH
 * [link to JupyterHub](https://jupyter.nersc.gov/hub/home)
 
 ### Compiler option
@@ -26,3 +26,8 @@ At the command prompt,
 > salloc -N 1 -q interactive -C knl -t 30:00 
 > srun -n 32 ./mitgcmuv
 
+### postprocessing 
+Binary to netCDF can be done automatically using the following scripts: 
+* [rdmds.m]
+* [rdmds_nc_batch.m]
+* [drive_rdmds_nc.m]
