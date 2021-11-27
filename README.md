@@ -24,6 +24,7 @@ To compile the MITgcm, using the above module configuration use this:
 ### Test run
 At the command prompt,
 > salloc -N 1 -q interactive -C knl -t 30:00 
+> 
 > srun -n 32 ./mitgcmuv
 
 ### postprocessing 
