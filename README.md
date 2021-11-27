@@ -28,11 +28,11 @@ At the command prompt,
 
 ### postprocessing 
 Binary to netCDF can be done automatically using the following scripts: 
-* [rdmds.m](https://github.com/takaito1/NERSC-MITgcm/blob/main/rdmds.m) Do not edit
-* [rdmds_nc_batch.m](https://github.com/takaito1/NERSC-MITgcm/blob/main/rdmds_nc_batch.m) Do not edit
-* [drive_rdmds_nc.m](https://github.com/takaito1/NERSC-MITgcm/blob/main/drive_rdmds_nc.m) Edit this file for the desired variables
+* [rdmds.m](https://github.com/takaito1/NERSC-MITgcm/blob/main/code/rdmds.m) Do not edit
+* [rdmds_nc_batch.m](https://github.com/takaito1/NERSC-MITgcm/blob/main/code/rdmds_nc_batch.m) Do not edit
+* [drive_rdmds_nc.m](https://github.com/takaito1/NERSC-MITgcm/blob/main/code/drive_rdmds_nc.m) Edit this file for the desired variables
 
 ### Slurm job script
 Once everything works on the interactive mode, it is ready to submit in the batch mode: 
-[run.sh](https://github.com/takaito1/NERSC-MITgcm/blob/main/run.sh)
+[run.sh](https://github.com/takaito1/NERSC-MITgcm/blob/main/code/run.sh)
 > sbatch run.sh
